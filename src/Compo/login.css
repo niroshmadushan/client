@@ -1,0 +1,65 @@
+.lg{
+    background-color: rgba(240, 248, 255, 0);
+    width: 550px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10%;
+    
+    border-radius: 15px;
+}
+.lg h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+
+}
+.lg img{
+    width: 60%;
+    margin-left: 23%;
+    background-color: rgba(0, 0, 0, 0.021);
+}
+.err{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.lg form label{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.lg input{
+    width: 70%;
+    margin-bottom: 10px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+}
+.lg button{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 255, 0.568);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 42%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: none;
+}
+.lg button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.lg button:active{
+    transform: scale(0.95);
+}

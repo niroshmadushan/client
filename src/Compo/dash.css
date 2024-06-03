@@ -1,0 +1,135 @@
+.dash{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    text-align: center;
+    height: 90%;
+    max-height: 90%;
+    
+}
+.dash #fx{
+    z-index: 1000;
+    position: fixed;
+    background-color: white;
+    width: 59%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -10px;
+    
+}
+.dash h2{
+    text-align: center;
+    font-family:  sans-serif;
+}
+
+.dash .btndh{
+    
+    background-color: rgba(60, 98, 105, 0.568);
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.dash .btndh:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.dash .btndh:active{
+    transform: scale(0.95);
+}
+
+.dash .lgt{
+    background-color: rgb(201, 103, 103);
+}
+.dash .lgt:hover{
+    background-color: rgb(255, 51, 0);
+    color: white;
+    cursor: pointer;
+}
+    
+.srsbtnset1{
+    background-color: rgb(138, 132, 132);
+    display: none;
+}
+
+.srsbtnset1 button{
+    margin-top: 8px;
+    height: 35px;
+    margin-left: 5px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.srsbtnset1 button:hover{
+    background-color: white;
+    color: rgb(5, 69, 121);
+    cursor: pointer;
+}
+.srsbtnset1 button:active{
+    transform: scale(0.95);
+}
+.srsbtnset2{
+    background-color: rgb(138, 132, 132);
+    display: none;
+}
+
+.srsbtnset2 button{
+    margin-top: 8px;
+    height: 35px;
+    margin-left: 5px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.srsbtnset2 button:hover{
+    background-color: white;
+    color: rgb(5, 69, 121);
+    cursor: pointer;
+}
+.srsbtnset2 button:active{
+    transform: scale(0.95);
+}
+
+.svs1{
+    margin-top: 280px;
+    display: none;
+}
+.svs2{
+    margin-top: 280px;
+    display: none;
+}
+
+#fx img{
+    width: 10%;
+    text-align: left;
+}
+.welcome {
+    margin-top: 200px;
+    height: 1px;
+}
+.welcome img{
+    margin-top: 100px;
+    width: 25%;
+}
+.welcome img:hover{
+    cursor: pointer;
+}

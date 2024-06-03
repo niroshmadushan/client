@@ -1,0 +1,48 @@
+.cntent table{
+   margin: auto;
+}
+
+.cntent table td input{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.cntent table td select{
+    width: 100%;
+    height: 25px;
+}
+
+.cntent button{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-left: 10%;
+    
+}
+.cntent button:hover{
+    background-color: rgb(0, 174, 255);
+    color: #000;
+    cursor: pointer;
+ }
+
+ .cntent button:active{
+    transform: scale(1.05);
+ }
+.cntent table td textarea{
+    width: 100%;
+    height: 80px;
+}
+.cntent .chk{
+
+    text-align: left;
+    margin: auto;
+    width: 37%;
+    background-color: rgba(240, 248, 255, 0);
+  
+}
